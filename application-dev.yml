@@ -1,5 +1,11 @@
-data:
-  env: config-eureka-dev
-  user:
-    username: eureka-client-user
-    password: 1291029102
+server:
+  port: 3301
+management:
+  endpoint:
+    shutdown:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+foo: 123456aa        
