@@ -8,4 +8,4 @@ management:
     web:
       exposure:
         include: "*"
-foo: ha4567
+foo: ha78
